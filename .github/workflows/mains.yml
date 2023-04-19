@@ -1,1 +1,23 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubunto-latest
+
+
+    steps:
+      - name: 'testing'
+        run: pwd
+
+      - name: 'test1'
+        run: echo alaa
