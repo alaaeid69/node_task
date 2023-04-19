@@ -11,4 +11,13 @@ on:
 
 
 jobs:
+  build:
+    runs_on: ubunto-latest
 
+
+    steps:
+      - name: 'test1'
+        run: pwd
+        
+      - name: 'test1'
+        run: echo alaa
